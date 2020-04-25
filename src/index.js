@@ -11,7 +11,7 @@ for (let i = 0;; i++) { // o "i" é o incremento utilizado para formar o valor d
     }
     element = fArr[i-1] + fArr[i-2] //composição do element juntamente com o incremento
 
-    if( element > 400){  //Se a o element for maior que 400 o if dispara o break que interrompe o laço de repetição
+    if( element > 350){  //Se a o element for maior que 350 o if dispara o break que interrompe o laço de repetição
         break;
     }
     fArr.push(element) //adicionando o element no array
@@ -30,7 +30,7 @@ const isFibonnaci = (num) => {
     return res;
 }
 
-console.log(isFibonnaci(8)); //Inserir entre parênteses o número para ser ver se está contido na sequência
+console.log(isFibonnaci(12)); //Inserir entre parênteses o número para ser ver se está contido na sequência
 
 
 module.exports = { //exportação dos metódos para serem utilizados em outros arquivos
