@@ -27,13 +27,13 @@ const isFibonnaci = (num) => {
     const array = fibonacci();
     const res = array.includes(num); // O includes verificar se certo elemento está contido ou não no array
 
-    return res;
+    return res; //Retorno do método com a resposta true ou false
 }
 
 console.log(isFibonnaci(12)); //Inserir entre parênteses o número para ser ver se está contido na sequência
 
 
-module.exports = { //exportação dos metódos para serem utilizados em outros arquivos
+module.exports = { //exportação dos métodos para serem utilizados em outros arquivos
     fibonacci,
     isFibonnaci
 }
