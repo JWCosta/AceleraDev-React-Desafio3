@@ -1,3 +1,4 @@
-added 40 packages from 467 contributors and audited 51 packages in 2.163s
-found 2 low severity vulnerabilities
-  run `npm audit fix` to fix them, or `npm audit` for details
+
+> nodejs-0@1.0.0 test:submit /home/jonathan/codenation/nodejs-0
+> mocha test/submit.test.js --reporter mocha-junit-reporter --reporter-options mochaFile=./output.xml | exit 0
+

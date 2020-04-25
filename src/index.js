@@ -30,7 +30,7 @@ const isFibonnaci = (num) => {
     return res; //Retorno do método com a resposta true ou false
 }
 
-console.log(isFibonnaci(12)); //Inserir entre parênteses o número para ser ver se está contido na sequência
+console.log(isFibonnaci(12)); //Inserir entre parênteses o número para ver se está contido na sequência
 
 
 module.exports = { //exportação dos métodos para serem utilizados em outros arquivos
