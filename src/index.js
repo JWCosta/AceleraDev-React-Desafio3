@@ -22,13 +22,7 @@ for (let i = 0;; i++) { // o "i" é o incremento utilizado para formar o valor d
 console.log(fibonacci());
 
 
-
-const isFibonnaci = (num) => {
-    const array = fibonacci();
-    const res = array.includes(num); // O includes verificar se certo elemento está contido ou não no array
-
-    return res; //Retorno do método com a resposta true ou false
-}
+const isFibonnaci = (num) => fibonacci().includes(num)//O includes vai verificar se certo elemento está contido ou não no array
 
 console.log(isFibonnaci(12)); //Inserir entre parênteses o número para ver se está contido na sequência
 
